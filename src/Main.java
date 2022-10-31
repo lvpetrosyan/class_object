@@ -1,4 +1,7 @@
+import java.util.Arrays;
+
 public class Main {
+    static Books [] books = new Books[5];
     public static void main(String[] args) {
         Book infobook1 = new Book("1984", 1930);
         Author infoAuthor1 = new Author("Arthur", "Blair");
@@ -10,14 +13,12 @@ public class Main {
         System.out.println(infobook1.getYearPublication()+" год");
 
         System.out.println("Средний уровень, задание 2");
-        Book [] allBooks= new Book[1];
-        Author [] allAuthore= new Author[1];
-        allBooks[0]= new Book("zelenaya milya",1999);
-        allAuthore[0]=new Author("Stiven","King");
-        System.out.println(allAuthore[0]+":"+allBooks[0]);
-        //В методе main создан массив и заполнен созданными ранее объектами.
-        //Методы объявлены корректно.
-        //Методы корректно справляются со своей задачей.
+    books[0]=new Books("Stiven King","The Stand","1978");
+    System.out.println(books[0].getAuthor()+": "+ books[0].getName()+": "+ books[0].getPublication());
+    //Напечатать в консоль все книги из массива в следующем формате: “Stephen King: The Stand: 1978”
 
-    }
-}
+        }
+
+        }
+
+
