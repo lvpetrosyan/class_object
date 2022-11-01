@@ -13,6 +13,7 @@ public class Main {
         System.out.println(infobook1.getYearPublication()+" год");
 
 
+
         }
 
         }
