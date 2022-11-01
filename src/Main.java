@@ -12,10 +12,6 @@ public class Main {
         infobook1.setYearPublication(1965);
         System.out.println(infobook1.getYearPublication()+" год");
 
-        System.out.println("Средний уровень, задание 2");
-    books[0]=new Books("Stiven King","The Stand","1978");
-    System.out.println(books[0].getAuthor()+": "+ books[0].getName()+": "+ books[0].getPublication());
-    //Напечатать в консоль все книги из массива в следующем формате: “Stephen King: The Stand: 1978”
 
         }
 
