@@ -29,10 +29,11 @@ public class Book {
         this.yearPublication = yearPublication;
     }
 
+
     @Override
     public String toString() {
         return nameBook + " "+yearPublication +
-                ": " + author;
+                ": " + author.toString();
     }
 
     @Override
@@ -47,4 +48,5 @@ public class Book {
     public int hashCode() {
         return Objects.hash(nameBook);
     }
+
 }
